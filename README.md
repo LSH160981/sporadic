@@ -6,7 +6,7 @@
 rm -rf /home/docker/CLIProxyAPI/auths/*
 ```
 
-## CLI Proxy json 放松
+## CLI Proxy json 验证文件
 ```
 cd /home/docker/CLIProxyAPI/auths && \
 URL="https://github.com/LSH160981/sporadic/raw/refs/heads/main/20260306-1000_2.zip" && \

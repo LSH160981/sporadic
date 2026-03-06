@@ -1,6 +1,9 @@
 # sporadic
-mkdir -p /home/docker/CLIProxyAPI/auths && \
-find /home/docker/CLIProxyAPI/auths -mindepth 1 -delete && \
-curl -L -o /tmp/codex70.zip "" && \
-unzip -o /tmp/codex70.zip -d /home/docker/CLIProxyAPI/auths && \
-rm -f /tmp/codex70.zip
+
+
+```
+cd /home/docker/CLIProxyAPI/auths
+wget https://github.com/LSH160981/sporadic/raw/refs/heads/main/20260306-1000_2.zip
+unzip -j 20260306-1000_2.zip
+rm -f 20260306-1000_2.zip
+```
